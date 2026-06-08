@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        brand: '#6366f1',
-        'brand-dark': '#4f46e5',
+        brand: {
+          DEFAULT: '#6366f1',
+          dark: '#4f46e5',
+        },
         accent: '#a5b4fc',
       },
     },
